@@ -287,13 +287,13 @@
         background-repeat: no-repeat;
         overflow: hidden;
         background-position: center;
-        height: 60rem;
+        height: 40rem;
         max-width: 100%;
         z-index: 1;
         border: none;
     }
     .header__video__titel{
-        font-size: 8rem;
+        font-size: 6rem;
         left: 0;
     }
     .video-background-header{
@@ -323,7 +323,7 @@
     /* -------Review Section--------- */
     
     #grid-header-fix{
-        font-size: 4rem;
+        font-size: 2rem;
     }
     .section__reviews{
         border-right: 1rem;
@@ -332,10 +332,10 @@
         }
     }
     .reviews__grid-container{
-        padding: 2rem;
+        padding: 0rem;
     }
     .reviews__grid-container .reviews__album-header{
-        font-size: 5rem;
+        font-size: 3rem;
     }
     .reviews__grid-container .reviews__album-text{
         font-size: medium;
@@ -355,8 +355,8 @@
         background-image: url(../img/Album_Cover/Vertigo-2x.jpg);
         background-repeat: no-repeat;
         overflow: hidden;
-        background-position: bottom;
-        height: 50rem;
+        background-position: center;
+        height: 25rem;
         max-width: 100%;
     }
     .video-background{
@@ -366,20 +366,20 @@
 
     .video-header{
         font-size: 5rem;
-        margin-bottom: 15%;
+        margin-bottom: 20%;
         left: 1rem;
     }
     .video-titel{
-        top: -1rem;
-        left: 6%;
+        top: 2rem;
+        left: 3%;
     }
 
     .video-titel .video-link{
-        font-size: 6rem;
+        font-size: 5rem;
     }
     /* ---------Contact Section------- */
     .contact__header{
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .form__container{
         padding: 2rem;
@@ -389,7 +389,7 @@
         font-size: 4rem;
     }
     .footer__social-links{
-        font-size: 4rem;
+        font-size: 3rem;
         padding: 1rem;
     }
 }
