@@ -1,0 +1,66 @@
+.section__reviews{
+    background: $wenge;
+    border-right: 1.5rem solid $baby-powder;
+
+    .section__h2{
+        font-family: $fontfamily;
+        font-weight: 800;
+        color: $charleston-green;
+        text-align: center;
+        font-size: 10rem;
+        text-transform: uppercase;
+        padding-top: 2rem;
+    }
+}
+.reviews__grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 5rem;
+
+    .reviews__album-cover{
+        max-width: 100%;
+    }
+    
+    
+    .reviews__album-cover:hover,
+    .reviews__album-cover-highres:hover{
+        transform: scale(1.01);
+        transition: ease .2s;
+        box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    }
+    .reviews__album-header{
+        text-align: center;
+        font-family: $fontfamily;
+        font-weight: 800;
+        font-size: 8rem;
+        padding: 1rem;
+        color: $wenge;
+        /* text-shadow:0 1px 0 rgba(0, 0, 0, 0.295); */
+    
+    }
+    .reviews__ablum-description{
+        box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background: $charleston-green;
+    }
+    .reviews__album-text{
+        text-align: center;
+        font-family: $fontfamily;
+        font-size: x-large;
+        font-style: italic;
+        color: $baby-powder;
+        letter-spacing: 1px;
+        padding: 1rem;
+    }
+    .reviews__ablum-author{
+        margin-top: 1rem;
+        font-style: normal;
+        font-weight: 700;
+    }
+}
+
+/* Removing border of Spotify PLayer */
+iframe{
+    border:0;
+}

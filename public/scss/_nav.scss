@@ -1,0 +1,50 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: $baby-powder;
+    font-family: $fontfamily;
+    font-weight: 800;
+    font-size: xx-large;
+    padding-top: 1rem;
+    position: sticky;
+
+    #crooked{
+      color: $jelly-bean;
+    }
+
+    .navbar__navitem{
+      padding: 1.5rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: black;
+  }
+
+  /* Underline effect of titles */
+  .underline {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+  }
+  .underline:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 0;
+    bottom: -5px;
+    background: $jelly-bean;
+    height: 4px;
+    transition: width 0.3s ease-out;
+  }
+  .underline:hover:after,
+  .underline:focus:after,
+  .underline:active:after {
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+  
+}
+
+
+

@@ -1,0 +1,131 @@
+
+.section__contact{
+    background: $dark-jelly-bean;
+    border-left: 1rem solid $baby-powder;
+}
+.contact__header{
+    font-family: $fontfamily;
+    font-weight: 800;
+    font-size: 8rem;
+    text-align: center;
+    color: $baby-powder;
+    padding-top: 5rem;
+    text-transform: uppercase;
+
+}
+
+.form__container{
+    padding: 5rem;
+
+    .form__group {
+        font-family: $fontfamily;
+        position: relative;
+        left: 25%;
+        padding: 1rem;
+        width: 50%;
+      }
+      
+      .form__field {
+        width: 100%;
+        border: 0;
+        border-bottom: 2px solid $light-jelly-bean;
+        outline: 0;
+        font-size: 1.3rem;
+        font-family: $fontfamily;
+        color: $baby-powder;
+        padding: 7px 0;
+        background: transparent;
+        transition: border-color 0.2s;
+      
+        &::placeholder {
+          color: transparent;
+        }
+      
+        &:placeholder-shown ~ .form__label {
+          font-size: 1.3rem;
+          cursor: text;
+          top: 20px;
+        }
+      }
+      
+      .form__label {
+        position: absolute;
+        top: 0;
+        display: block;
+        transition: 0.2s;
+        font-size: 1rem;
+        color: $light-jelly-bean;
+      }
+      
+      .form__field:focus {
+        ~ .form__label {
+          position: absolute;
+          top: -.5rem;
+          display: block;
+          transition: 0.2s;
+          font-size: 1rem;
+          color: $baby-powder;
+          font-weight:700;    
+        }
+        padding-bottom: 6px;
+        border-bottom: 2px solid $dark-vanilla;
+        font-weight: 700;
+        border-width: 3px;
+        border-image: linear-gradient(to right, $baby-powder,$light-jelly-bean);
+        border-image-slice: 1;
+      }
+}
+
+.form-btn{
+    font-size: xx-large;
+    color: $light-jelly-bean;
+    background: transparent;
+    border: none;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    margin-top: 3rem;
+    border: 1px solid $light-jelly-bean;
+    padding: 1rem;
+
+    &:hover{
+      border: 1px solid $baby-powder;
+      color: $baby-powder;
+      cursor: pointer;
+      transition: .1s ease-in-out;
+      box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    }
+    &:active{
+      transform: translateX(-50%) translateY(.1rem);
+        background: $baby-powder;
+        color: $jelly-bean;
+    }
+
+    .form__btn-underline {
+        display: inline;
+        position: relative;
+        overflow: hidden;
+    
+        &:after {
+            content: "";
+            position: absolute;
+            right: 0;
+            width: 0;
+            bottom: -5px;
+            background: $baby-powder;
+            height: 4px;
+            transition: width 0.3s ease-out;
+          }
+          &:hover:after,
+          &:focus:after,
+          &:active:after {
+            left: 0;
+            right: auto;
+            width: 100%;
+          }
+      }
+      
+
+}
+
+

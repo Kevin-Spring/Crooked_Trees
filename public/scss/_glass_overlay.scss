@@ -1,0 +1,41 @@
+.glass-yellow{
+    position: absolute;
+    top: 150rem;
+    left: 8rem;
+    height: 40rem;
+    width: 40rem;
+    z-index: 1;
+    border-radius: 50%;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: rgba(255, 220, 181, 0.411);
+}
+.glass-blue{
+    position: absolute;
+    right: 8rem;
+    top: 68rem;
+    height: 50rem;
+    width: 40rem;
+    z-index: 1;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: rgba(181, 219, 255, 0.205);
+}
+.glass-pink{
+    position: absolute;
+    left: 30rem;
+    top: 200rem;
+    height: 40rem;
+    width: 70rem;
+    z-index: 1;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: rgba(255, 214, 221, 0.26);
+}
+.glass-triangle {
+    position: absolute;
+    top: 225rem;
+    left: 5%;
+    width: 0; 
+    height: 0; 
+    border-left: 45rem solid transparent;
+    border-right: 45rem solid transparent;
+    border-bottom: 45rem solid rgba(67, 247, 208, 0.199);
+  }

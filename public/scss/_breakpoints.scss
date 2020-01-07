@@ -1,0 +1,395 @@
+
+/* Large screens */
+@media only screen  and (min-width : 2101px) and (max-width : 2560px) {
+    /* -------Header-------- */
+    .header__video__titel{
+        font-size: 19rem;
+    }
+    /* -------Glass Overlay - Phtotogallery------- */
+    .glass-blue{
+        top: 100rem;
+        width: 60rem;
+        height: 80rem;
+    }
+    .glass-yellow{
+        top: 200rem;
+        height: 50rem;
+        width: 50rem;
+    }
+    .glass-pink{
+        top: 280rem;
+        height: 50rem;
+        width: 80rem;
+        left: 40rem;
+    }
+    .glass-triangle {
+        top: 340rem;
+        border-left: 40rem solid transparent;
+        border-right: 40rem solid transparent;
+        border-bottom: 40rem solid rgba(67, 247, 208, 0.199);
+      }
+}
+
+/* Desktops and laptops */
+@media only screen  and (min-width : 1651px) and (max-width : 2100px) {
+    /* --------Header------- */
+   .header__video__titel{
+       font-size: 16rem;
+   }
+   /* ---------Glass Overlay - Photogallery-------- */
+   .glass-blue{
+    top: 90rem;
+    height: 50rem;
+    width: 40rem;
+    }
+
+   .glass-yellow{
+       top: 140rem;
+   }
+
+   .glass-pink{
+    top: 210rem;
+    height: 35rem;
+    width: 70rem;
+   }
+   .glass-triangle {
+    top: 250rem;
+    border-left: 40rem solid transparent;
+    border-right: 40rem solid transparent;
+    border-bottom: 40rem solid rgba(67, 247, 208, 0.199);
+  }
+}
+/* Mainly to fix the glass overlay */
+@media only screen and (min-width : 1451px) and (max-width : 1650px){
+    /* --------Header---------- */
+    .header__video__titel{
+        font-size: 13rem;
+    }
+    /* --------Glass Overlay - Photogallery-------- */
+    .glass-blue{
+        top: 74rem;
+        height: 50rem;
+        width: 40rem;
+    }
+    
+       .glass-yellow{
+           height: 40rem;
+           width: 40rem;
+           top: 130rem;
+       }
+    
+       .glass-pink{
+        top: 170rem;
+        height: 35rem;
+        width: 70rem;
+       }
+       .glass-triangle {
+        top: 215rem;
+        border-left: 40rem solid transparent;
+        border-right: 40rem solid transparent;
+        border-bottom: 40rem solid rgba(67, 247, 208, 0.199);
+      }
+       /* ---------Review Section------- */
+       #grid-header-fix{
+           font-size: 5rem;
+       }
+       .reviews__grid-container .reviews__album-header{
+        font-size: 6rem;
+    }
+}
+/* Mainly to fix the glass overlay */
+@media only screen and (min-width : 1225px) and (max-width : 1450px){
+    /* -------Header--------- */
+    .header__video__titel{
+        font-size: 10rem;
+    }
+    /* -------Glass Overlay - PhotoGallery------- */
+    .glass-blue{
+        top: 60rem;
+        height: 50rem;
+        width: 30rem;
+    }
+    
+       .glass-yellow{
+           height: 30rem;
+           width: 30rem;
+           top: 120rem;
+       }
+    
+       .glass-pink{
+        top: 160rem;
+        height: 30rem;
+        width: 60rem;
+       }
+       .glass-triangle {
+        top: 190rem;
+        border-left: 25rem solid transparent;
+        border-right: 25rem solid transparent;
+        border-bottom: 25rem solid rgba(67, 247, 208, 0.199);
+      }
+       /* ------Review Section------------- */
+       #grid-header-fix{
+        font-size: 5rem;
+    }   
+    .reviews__grid-container .reviews__album-header{
+        font-size: 6rem;
+    }
+    .reviews__grid-container .reviews__album-text{
+        font-size: large;
+    }
+}
+/* Mainly to fix the glass overlay */
+@media only screen and (min-width : 1026px) and (max-width : 1224px) {
+    /* --------Header-------- */
+    .header__video__titel{
+        font-size: 8rem;
+    }
+    /* --------Glass Overlay - Photogallery---- */
+    .glass-yellow{
+        height: 25rem;
+        width: 25rem;
+        top: 100rem;
+    }
+    .glass-blue{
+        top: 70rem;
+        height: 40rem;
+        width: 20rem;
+    }
+    .glass-pink{
+        height: 30rem;
+        width: 50rem;
+        top: 130rem;
+    }
+    .glass-triangle {
+        top: 160rem;
+        border-left: 20rem solid transparent;
+        border-right: 20rem solid transparent;
+        border-bottom: 20rem solid rgba(67, 247, 208, 0.199);
+      }
+    /* -------Review Section------------- */
+    #grid-header-fix{
+        font-size: 5rem;
+    }
+    .reviews__grid-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    #grid-row-fix{
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+}
+/* Ipad (Landscape and Portrait */
+@media only screen and (min-width : 801px) and (max-width : 1025px) {
+    /* -------Navbar--------- */
+    .navbar{
+        justify-content: space-evenly;
+    }
+    .navbar__navitem{
+        font-size: x-large;
+    }
+    /* -------Header--------- */
+    .header__video__titel{
+        font-size: 8rem;
+    }
+    .header__video-overlay{
+        background: none;
+        background-image: url(../img/Album_Cover/Flaws-2x.jpg);
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-position: center;
+        height: 60rem;
+        max-width: 100%;
+        border: none;
+    }
+    .video-background-header{
+        display: none;
+    }
+    /* -------Scroll Arrow - Aside----- */
+    .arrow-up{
+        font-size: 5rem;
+    }
+    /* -------Glass Overlay----- */
+    .glass-yellow{
+        display: none;
+    }
+    .glass-blue{
+        display: none;
+    }
+    .glass-pink{
+        display: none;
+    }
+    .glass-triangle {
+        display: none;
+      }
+    /* ------Review Section------- */
+    .reviews__album-description{
+        font-size: 2px;
+    }
+    #grid-header-fix{
+        font-size: 5rem;
+    }
+    .reviews__grid-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    #grid-row-fix{
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    .video-link{
+        font-size: 2rem;
+        color: white;
+    }
+    /* -------Video Section-------- */
+    .section__video-overlay{
+        background: none;
+        background-image: url(../img/Album_Cover/Vertigo-2x.jpg);
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-position: bottom;
+        height: 50rem;
+        max-width: 100%;
+    }
+    .video-background{
+        display: none;
+    }
+    .video-btn{display:none}
+    .video-titel{
+        top: -1rem;
+        left: 5%;
+    }
+    /* ------Footer------- */
+    .footer__header{
+        font-size: 4rem;
+    }
+    .footer__social-links{
+        font-size: 4rem;
+        padding: 1rem;
+    }
+}
+
+/* Smartphones (Landscape and Portrait) */
+@media only screen and (min-width : 300px) and (max-width : 800px){
+    /* --------Navbar------ */
+    .navbar{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .navbar__navitem{
+        font-size: medium;
+        padding: 0;
+    }
+    /* -------Header------- */
+    .header__video-overlay{
+        background: none;
+        background-image: url(../img/Album_Cover/Flaws-2x.jpg);
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-position: center;
+        height: 60rem;
+        max-width: 100%;
+        z-index: 1;
+        border: none;
+    }
+    .header__video__titel{
+        font-size: 8rem;
+        left: 0;
+    }
+    .video-background-header{
+        border: none;
+    }
+    /* -------Scroll Arrow - Aside---- */
+    .arrow-up{
+        font-size: 3rem;
+    }
+    /* -------Gallery Header--------- */
+    .section__h2{
+        font-size: 6rem;
+    }
+    /* -------Glass Overlays-------- */
+    .glass-yellow{
+        display: none;
+    }
+    .glass-blue{
+        display: none;
+    }
+    .glass-pink{
+        display: none;
+    }
+    .glass-triangle {
+        display:none;
+      }
+    /* -------Review Section--------- */
+    
+    #grid-header-fix{
+        font-size: 4rem;
+    }
+    .section__reviews{
+        border-right: 1rem;
+        .section__h2{
+            font-size: 6rem;
+        }
+    }
+    .reviews__grid-container{
+        padding: 2rem;
+    }
+    .reviews__grid-container .reviews__album-header{
+        font-size: 5rem;
+    }
+    .reviews__grid-container .reviews__album-text{
+        font-size: medium;
+    }
+    .reviews__grid-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    #grid-row-fix{
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    /* --------Video Section--------- */
+    
+    .section__video-overlay{
+        background: none;
+        background-image: url(../img/Album_Cover/Vertigo-2x.jpg);
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-position: bottom;
+        height: 50rem;
+        max-width: 100%;
+    }
+    .video-background{
+        display: none;
+    }
+    .video-btn{display:none}
+
+    .video-header{
+        font-size: 5rem;
+        margin-bottom: 15%;
+        left: 1rem;
+    }
+    .video-titel{
+        top: -1rem;
+        left: 6%;
+    }
+
+    .video-titel .video-link{
+        font-size: 6rem;
+    }
+    /* ---------Contact Section------- */
+    .contact__header{
+        font-size: 4rem;
+    }
+    .form__container{
+        padding: 2rem;
+    }
+    /* ---------Footer---------------- */
+    .footer__header{
+        font-size: 4rem;
+    }
+    .footer__social-links{
+        font-size: 4rem;
+        padding: 1rem;
+    }
+}

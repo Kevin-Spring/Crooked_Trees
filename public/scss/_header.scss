@@ -1,0 +1,60 @@
+.header__video-overlay{
+    border: 1rem solid $baby-powder;
+    padding: 1rem;
+    background: rgba(234, 99, 75, 0.37);
+}
+.video-background-header{
+    border: 1rem solid $baby-powder;
+    position: relative;
+    z-index: -1;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.header__video__titel{
+    position: absolute;
+    top: 12rem;
+    left: 5rem;
+    display: inline-block;
+    font-family: $fontfamily;
+    font-size: 16rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: rgba(234, 99, 75, 0.747);
+
+
+    .hero-video-link{
+        color: rgba(255, 253, 247, 0.863);
+        text-decoration: none;
+
+        &:hover{
+            color: $baby-powder;
+            transition: .5s ease-in-out;
+
+        }
+    }
+    /* Underline effect of titles */
+    .underline {
+        display: inline;
+        position: relative;
+        overflow: hidden;
+      }
+      .underline:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        width: 0;
+        bottom: -5px;
+        background: $baby-powder;
+        height: 4px;
+        transition: width 0.3s ease-out;
+      }
+      .underline:hover:after,
+      .underline:focus:after,
+      .underline:active:after {
+        left: 0;
+        right: auto;
+        width: 100%;
+      }
+}
+

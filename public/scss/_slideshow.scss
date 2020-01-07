@@ -1,0 +1,61 @@
+.mySlides {
+    display: none;
+}
+/* .section__slideshow{
+    border: 2rem solid $peach;
+} */
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  
+  
+}
+
+.slideImage{
+    max-width: 100%;
+}
+
+/* The dots */
+.dot {
+  height: 1rem;
+  width: 1rem;
+  margin-top: 0.1rem;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.slideshow__dot{
+    text-align: center;
+}
+
+.active {
+  background-color: $charleston-green;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-duration: 6.5s;
+
+    animation-name: fade;
+    animation-timing-function: ease;
+    animation-duration: 6.5s;
+}
+
+@-webkit-keyframes fade {
+  0% {opacity: .3} 
+  50% {opacity: 1}
+  100% {opacity: .3}
+}
+
+@keyframes fade {
+  0% {opacity: .3} 
+  50% {opacity: 1}
+  100% {opacity: .3}
+}
+

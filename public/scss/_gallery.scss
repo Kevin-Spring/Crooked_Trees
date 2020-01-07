@@ -1,0 +1,26 @@
+.section__h2{
+    
+        font-family: $fontfamily;
+        font-weight: 800;
+        color: $charleston-green;
+        text-align: center;
+        font-size: 10rem;
+        text-transform: uppercase;
+        padding-top: 2rem;
+    
+}
+.gallery__container{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+
+    .gallery__row{
+        flex: 33%;
+        max-width: 33%;
+        padding: 0 10px;
+    }
+    .gallery__row-img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,27 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FFFDF7; 
+    overflow-x: hidden;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap');
+
+@import "variables.scss";
+@import "nav.scss";
+@import "header.scss";
+@import "scroll-arrow.scss";
+@import "slideshow.scss";
+@import "gallery.scss";
+@import "reviews.scss";
+@import "video.scss";
+@import "contact.scss";
+@import "footer.scss";
+@import "glass_overlay.scss";
+@import "breakpoints.scss";
+
